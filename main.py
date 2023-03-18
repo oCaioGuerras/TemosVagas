@@ -12,7 +12,7 @@ import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 from collections.abc import MutableMapping
 
-class MyDict(MutableMapping):
+#class MyDict(MutableMapping):
 # Implementação da classe
 
 # Load environment variables
