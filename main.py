@@ -10,6 +10,10 @@ import datetime
 import re
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
+from collections.abc import MutableMapping
+
+class MyDict(MutableMapping):
+# Implementação da classe
 
 # Load environment variables
 load_dotenv()
