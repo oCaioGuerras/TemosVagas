@@ -76,7 +76,7 @@ def location_received(bot, update):
 
 bot.run()
     # Iniciar o loop do bot
-    app.run()
+app.run()
     
 if __name__ == "__main__":
     main()
