@@ -2,7 +2,7 @@ name: Bot Workflow
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Executa a cada 30 minutos
+    - cron: '*/30 * * * *11' # Executa a cada 30 minutos
 
 jobs:
   run:
